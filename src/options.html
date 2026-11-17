@@ -29,6 +29,10 @@
       #status {
         margin-top: 12px;
         color: #0a5;
+        min-height: 20px;
+      }
+      #status.error {
+        color: #c62828;
       }
       .help {
         margin: 0;
@@ -80,8 +84,8 @@
     </div>
 
     <div class="row">
-      <label for="clientSecret">Client secret do parceiro</label>
-      <input id="clientSecret" type="password" placeholder="secret do parceiro" />
+      <label for="clientSecret">Client secret do parceiro (opcional)</label>
+      <input id="clientSecret" type="password" placeholder="secret do parceiro (se exigido)" />
     </div>
 
     <div class="row">
